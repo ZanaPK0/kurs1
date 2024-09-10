@@ -1,0 +1,40 @@
+body{
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 20px;
+}
+
+
+.headers {
+    break-inside: avoid;
+    padding: 10px;
+    border: solid;
+    word-wrap: break-word;
+
+}
+
+#header1 {
+    color: red;
+}
+
+#bild1{
+    height: 150px;
+}
+
+#header2 {
+    color: green;
+    background-color: black;
+}
+
+#header3 {
+    color: blue
+}
+
+@media (max-width: 600px) {
+    body{
+        background-color: goldenrod;
+        grid-template-columns: repeat(1, minmax(0, 1fr));
+        
+
+    }   
+}
