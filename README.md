@@ -1,2 +1,2 @@
 # kurs1
-alla kodningar för kurs1
+all kod för kurs1
