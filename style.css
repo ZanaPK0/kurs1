@@ -1,94 +1,66 @@
 
-
-.thegrid{
-    display: grid;
-    grid-template-columns: repeat(3, minmax(0, 1fr));
-    gap: 20px;
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
 }
 
-#nagivationbar {
-
+#minhemsida{
+    margin-top: 0;
+    
 }
 
-.navbuttons {
-    background-color: black;
+header{
+    background-color: hsla(135, 89%, 29%, 0.952);
+    justify-content: center;
+    text-align: center;   
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 99;
+    
+}
+
+.navbtns {
+    margin-bottom: 20px;
+}
+
+.navbtns:hover{
     color: red;
+    
 }
 
-.navbuttons :hover{
-    color: yellow;
+main{
+    margin-top: 100px;
 }
 
 
-
-
-.headers {
-    break-inside: avoid;
-    padding: 10px;
-    border: solid;
-    word-wrap: break-word;
-
+.sidenav{
+    position: fixed;
+    border: solid red;   
+    height: 100px;
+    width: 100px;
 }
 
-#header1 {
-    color: red;
-    background-color: gray;
+#datorbild1{
+    height: 100px;
+    width: 100px;
 }
 
-.bild1{
-
+.article1 {
+    margin-left: 120px;
 }
 
 footer{
+    background-color: gray;
+    height: 100px;
+    width: 100%;
+    border: solid yellow;
+    margin-left: 0px;
+    margin-top: auto;
+    text-align: center;
 
 }
-.footericons{
-
-}
-
-.ulist {
-    list-style-type: none;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: blue;
-}
-
-.footertext{
-    position: fixed;
-}
-
-footer img {
-    width: 25px;
-    height: 25px
-}
-
-#header2 {
-    color: green;
-    background-color: black;
-}
-
-#header3 {
-    color: blue;
-    background-color: red;
-}
-
-@media (max-width: 600px) {
-    .thegrid{
-        background-color: goldenrod;
-        grid-template-columns: repeat(1, minmax(0, 1fr));
-        
-
-    }   
-    footer{
-        display: block;
-        position: relative;
-        clear: both;
-
-    }
-}
-
-display: grid;
-background-color: red;
-grid-template-columns: auto 1fr; /* First column for image, second for text */
-align-items: center;
