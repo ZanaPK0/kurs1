@@ -1,75 +1,47 @@
+@media (min-width: 320px) {
 
-body {
-    min-height: calc(100vh - 100px);
-    display: flex;
-    flex-direction: column;
-    margin: 0;
-    padding: 0;
-}
+    body{
+        padding: 0;
+        margin: 0;
+        margin-top: 100px;
+    }
+    header{
+        background-color: gray;
+        position: fixed;
+        left: 0;
+        top: 0;
+        width: 100%;
+    }
+    main{
+    }
+    footer{
+        width: 100%;
+        left: 0;
+        bottom: 0;
+        position: fixed;
+        background-color: gray;
+    }
 
-h3{
 
-}
+  }
 
-#minhemsida{
-    margin-top: 0;
+  @media (min-width: 481px) {
+    body{
+        columns: 2;
+    }
     
-}
 
-header{
-    background-color: hsla(135, 89%, 29%, 0.952);
-    justify-content: center;
-    text-align: center;   
-    position: fixed;
-    left: 0;
-    top: 0;
-    width: 100%;
-    z-index: 99;
+  }
+
+  @media (min-width: 769px) {
+    body{
+        columns: 3;
+    }
     
-}
-
-.navbtns {
-    margin-bottom: 20px;
-}
-
-.navbtns:hover{
-    color: red;
+    h4{
+        border:solid red;
+        width: 100%;
     
-}
+    }
 
-main{
-
-}
-
-section{
-    margin-top: 100px;
-}
-
-
-.sidenav{
-    position: fixed;
-
-    height: 100px;
-    width: 100px;
-}
-
-#datorbild1{
-    height: 100px;
-    width: 100px;
-}
-
-.article1 {
-    margin-left: 120px;
-}
-
-footer{
-    background-color: gray;
-    height: 100px;
-    width: 100%;
-    position: fixed;
-    text-align: center;
-    bottom: 0;
-    left: 0;
-    padding-bottom: 10px;
-
-}
+  }
