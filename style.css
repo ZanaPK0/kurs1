@@ -13,10 +13,12 @@ body{
 
 nav{
     text-align: center;
+
 }
 
 .navtext {
     color: red;
+    margin: 5%;
 }
 
 
@@ -57,6 +59,7 @@ nav{
         bottom: -10%;
         position: absolute;
         background-color: gray;
+        text-align: center;
     }
 
 
@@ -71,13 +74,16 @@ nav{
         height: 100%
 
     }
-
+    h3{
+        text-align: center;
+    }
     nav{
         text-align: center;
     }
     
     .navtext {
         color: red;
+        margin: 5%;
     }
     
     header{
@@ -100,8 +106,9 @@ nav{
     }
     h4{
         text-align: center;
-        border:solid red;
+        border: 1px solid red;
         bottom: 50px;
+        margin-top: 80px;
     }
 
 
@@ -110,7 +117,6 @@ nav{
         position: relative;
         margin: 0;
         padding: 0;
-        border: aqua solid;
 
     }
 
@@ -146,9 +152,10 @@ nav{
     footer{
         width: 100%;
         left: 0;
-        bottom: -0%;
+        bottom: -80%;
         position:absolute;
         background-color: gray;
+        text-align: center;
         
     }
 
@@ -171,12 +178,17 @@ nav{
     
     .navtext {
         color: red;
+        margin: 5%;
     }
 
     .articleboxbild{
         border: solid red;
         width: 33%;
 
+    }
+
+    h3{
+        text-align: center;
     }
 
     header{
@@ -234,6 +246,7 @@ nav{
     .footertext{
         margin: 0;
         padding: 0;
+        text-align: center;
     }
     footer{
         width: 100%;
