@@ -11,9 +11,17 @@ body{
         margin-top: 100px;
     }
 
+nav{
+    text-align: center;
+}
+
+.navtext {
+    color: red;
+}
+
+
     .articleboxbild{
         border: solid red;
-
         width: 33%;
 
     }
@@ -38,11 +46,16 @@ body{
     
     }
 
+    article{
+        margin: 0;
+        padding: 0;
+    }
+
     footer{
         width: 100%;
         left: 0;
         bottom: 0;
-        position: absolute;
+        position: relative;
         background-color: gray;
     }
 
@@ -55,7 +68,16 @@ body{
         padding: 0;
         margin: 0;
         margin-top: 15%;
-        height: 100vh;
+        height: 100%
+
+    }
+
+    nav{
+        text-align: center;
+    }
+    
+    .navtext {
+        color: red;
     }
     
     header{
@@ -75,7 +97,6 @@ body{
     section{
         padding: 0;
         margin: 0;
-        position: relative;
     }
     h4{
         text-align: center;
@@ -87,34 +108,36 @@ body{
 
     article{
         position: relative;
-        width: 100%;
+        margin: 0;
+        padding: 0;
+        border: aqua solid;
 
     }
 
     .articlebox{
         border: 1px solid red;
         text-align: center;
-        margin: 0;
-        padding: 0;
             
     }
 
     
     #articlebox1{
         width: 50%;
-        right: 0;
-        position: relative;
+        left: 0%;
+        position: absolute;
 
     }
     #articlebox2{
-        left: 50%;
         width: 50%;
+        left: 50%;
         position: relative;
     }
 
     #articlebox3{
         width: 50%;
-        position: relative;
+        left: 0;
+        top: 630px;
+        position: static;
     }
     .footertext{
         margin: 0;
@@ -124,8 +147,9 @@ body{
         width: 100%;
         left: 0;
         bottom: 0;
-        position: absolute;
+        position:relative;
         background-color: gray;
+        
     }
 
   }
@@ -136,6 +160,15 @@ body{
         padding: 0;
         margin: 0;
         margin-top: 100px;
+        height: 100%;
+    }
+
+    nav{
+        text-align: center;
+    }
+    
+    .navtext {
+        color: red;
     }
 
     .articleboxbild{
@@ -159,12 +192,17 @@ body{
         
     
     }
+    section{
+        position: relative;
+    }
+
     article{
         margin: 0;
         padding: 0;
         background-color: orange;
-
         position: relative;
+        height: 100%;
+        width: 100%;
     }
 
 
