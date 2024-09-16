@@ -6,7 +6,8 @@ body{
 @media (min-width: 320px) and (max-width: 479px){
 
     body{
-        padding: 0;
+        
+        padding: 0 0 40% 0;
         margin: 0;
         margin-top: 100px;
     }
@@ -21,6 +22,11 @@ nav{
     margin: 5%;
 }
 
+h3{
+    text-align: center;
+    color: white;
+}
+
 
     .articleboxbild{
         border: solid red;
@@ -30,13 +36,11 @@ nav{
 
     header{
         background-color: rgb(38, 0, 252);
-        position: absolute;
+        position: fixed;
         left: 0;
         top: 0;
         width: 100%;
-    }
-    main{
-
+        z-index: 2;
     }
 
     h4{
@@ -56,8 +60,8 @@ nav{
     footer{
         width: 100%;
         left: 0;
-        bottom: -10%;
-        position: absolute;
+        bottom: 0;
+        position: fixed;
         background-color: gray;
         text-align: center;
     }
@@ -76,6 +80,7 @@ nav{
     }
     h3{
         text-align: center;
+        color: white;
     }
     nav{
         text-align: center;
@@ -88,10 +93,11 @@ nav{
     
     header{
         background-color: rgb(38, 0, 252);
-        position: absolute;
+        position: fixed;
         left: 0;
         top: 0;
         width: 100%;
+        z-index: 2;
         
     }
 
@@ -152,8 +158,8 @@ nav{
     footer{
         width: 100%;
         left: 0;
-        bottom: -80%;
-        position:absolute;
+        bottom: 0;
+        position:fixed;
         background-color: gray;
         text-align: center;
         
@@ -167,7 +173,7 @@ nav{
         padding: 0;
         margin: 100px 0 0 0;
         height: 100%;
-        position: static;
+
 
 
     }
@@ -189,15 +195,17 @@ nav{
 
     h3{
         text-align: center;
+        color: white;
     }
 
     header{
         background-color: rgb(38, 0, 252);
-        position: absolute;
+        position: fixed;
         left: 0;
         top: 0;
         width: 100%;
-        margin: 0;
+        z-index: 2;
+
     }
     h4{
         text-align: center;
@@ -212,7 +220,6 @@ nav{
     article{
         padding: 0;
         margin: 2% 0 0 0;
-        background-color: orange;
         width: 100%;
     }
 
@@ -251,8 +258,9 @@ nav{
     footer{
         width: 100%;
         left: 0;
-        bottom: -120%;
-        position: absolute;
+        bottom: 0;
+        margin-bottom: 0;
+        position: fixed;
         border: solid red;
         background-color: gray;
     }
