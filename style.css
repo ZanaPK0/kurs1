@@ -36,6 +36,7 @@ h3{
 
     header{
         background-color: rgb(38, 0, 252);
+        border: 100px;
         position: fixed;
         left: 0;
         top: 0;
